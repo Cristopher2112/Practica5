@@ -1,0 +1,25 @@
+section{
+    display: flex;
+    width: 700px;
+    height: 430px;
+    margin: auto;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+}
+
+section img:hover{
+    cursor: progress;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
